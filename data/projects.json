@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Carrent",
+        "img": {
+            "path": "carrent.jpg",
+            "alt": "Project Carrent for rent a car business"
+        },
+        "links": {
+            "live": "http://www.carrent2020.epizy.com",
+            "github": "https:://www.github.com/madic00/carrent/"
+        },
+        "tags": [
+            "PHP",
+            "MySQL",
+            "JS",
+            "AJAX"
+        ],
+        "description": "Designed built & mantained a the lab managment system for FOI Laboratories"
+    },
+    {
+        "id": 2,
+        "name": "Jobboard",
+        "img": {
+            "path": "jobboard.jpg",
+            "alt": "Project Jobboard, online job search platform"
+        },
+        "links": {
+            "live": "http://www.jobboard.epizy.com",
+            "github": "https:://www.github.com/madic00/jobboard/"
+        },
+        "tags": [
+            "PHP",
+            "MySQL",
+            "JS"
+        ],
+        "description": "Online store with paypal payments intergration and guest user shopping"
+    },
+    {
+        "id": 3,
+        "name": "Trips",
+        "img": {
+            "path": "trips.jpg",
+            "alt": "Project Trips, travel agency"
+        },
+        "links": {
+            "live": "https://trips2019.netlify.app/",
+            "github": "https:://www.github.com/madic00/trips/"
+        },
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "interactivity with JS"
+        ],
+        "description": "Modulized guide for online courses with step by step intructions"
+    }
+]
