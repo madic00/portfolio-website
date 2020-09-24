@@ -16,8 +16,7 @@
 	--buttonColor:black;
 
 	--error: #dc3545;
-
-
+	--success: #28a745;
 }
 
 
@@ -73,7 +72,18 @@ h6 { font-size: 16px;}
 }
 
 
+.section-title {
+	text-align: center;
+}
 
+.full-height {
+	height: 90vh;
+	padding-top: 9vh;
+}
+
+.full-height .intro-wrapper h1 {
+	text-align: center;
+}
 
 .main-container{
 	width: 1200px;
@@ -108,6 +118,24 @@ h6 { font-size: 16px;}
 	padding-bottom: 50px;
 }
 
+.intro-404 {
+	background-color: var(--secondaryColor);
+	border:1px solid var(--borderColor);
+	border-radius:5px 5px 0 0;
+
+
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+		'nav-wrapper nav-wrapper'
+		'center center'
+	;
+	padding-bottom: 50px;
+}
 
 .nav-wrapper{
 	border-radius:5px 5px 0 0;
@@ -117,6 +145,11 @@ h6 { font-size: 16px;}
 	justify-content: space-between;
 	align-items: center;
 	background-color: var(--mainColor);
+}
+
+.center {
+	grid-area: center;
+	text-align: center;
 }
 
 #navigation a{
@@ -416,8 +449,16 @@ h6 { font-size: 16px;}
 	margin-bottom: 6px;
 }
 
-.error {
+.error, .mailError {
 	color: var(--error);
+}
+
+.success {
+	color: var(--success);
+}
+
+#sendingMailErrors p {
+	text-align: center;
 }
 
 .border-danger {
@@ -425,6 +466,9 @@ h6 { font-size: 16px;}
 	border-color: var(--error);
 }
 
+#moreInfo {
+	display: none;
+}
 
 @media screen and (max-width: 1200px){
 	.main-container{

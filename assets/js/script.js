@@ -5,7 +5,9 @@ window.onload = function () {
 		getProjects();
 
 		$(".error").hide();
-		$("#contact-form").submit(checkContactForm);
+		// $("#contact-form").submit(checkContactForm);
+
+		$("#moreInfo").hide();
 	}
 }
 
@@ -61,7 +63,14 @@ function printProjects(data) {
 						<p class="post-intro">${el.description}</p>
 
 						<div class="postLinks">
-							<a href="${el.links.live}" target="_blank">Visi Link</a>
+		`
+
+		if (el.links.live) {
+			out += `<a href="${el.links.live}" target="_blank">Visit Link</a>`;
+		}
+
+		out += `
+
 							<a class="codeLink" href="${el.links.github}" target="_blank">View
 								Code</a>
 
@@ -93,12 +102,12 @@ function printTags(tags) {
 
 var regexName = /^[A-Z][a-z]{2,20}(\s[A-Z][a-z]{3,20}){1,3}$/;
 var regexEmail = /^[A-z\d\.-]{5,100}\@[a-z]{2,10}\.[a-z]{2,20}$/;
-var regexSubject = /^[A-z\d\.-]{5,100}$/
+var regexSubject = /^[A-z\d\.\-\s.#]{5,100}$/;
 
 var errors = [];
 
-function checkContactForm(e) {
-	e.preventDefault();
+function checkContactForm() {
+	// e.preventDefault();
 
 	errors = [];
 

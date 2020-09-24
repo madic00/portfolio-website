@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteBase /
+rewritecond %{http_host} ^alemadic.com [nc]
+rewriterule ^(.*)$ http://www.alemadic.com/$1 [r=301,nc]
+
+ErrorDocument 404 /custom-404.html

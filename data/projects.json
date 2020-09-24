@@ -8,7 +8,7 @@
         },
         "links": {
             "live": "http://www.carrent2020.epizy.com",
-            "github": "https:://www.github.com/madic00/carrent/"
+            "github": "https://www.github.com/madic00/carrent/"
         },
         "tags": [
             "PHP",
@@ -16,7 +16,7 @@
             "JS",
             "AJAX"
         ],
-        "description": "Designed built & mantained a the lab managment system for FOI Laboratories"
+        "description": "Web app for rent a car business with complex administrative possibilities (in admin panel)."
     },
     {
         "id": 2,
@@ -27,14 +27,14 @@
         },
         "links": {
             "live": "http://www.jobboard.epizy.com",
-            "github": "https:://www.github.com/madic00/jobboard/"
+            "github": "https://www.github.com/madic00/jobboard/"
         },
         "tags": [
             "PHP",
             "MySQL",
             "JS"
         ],
-        "description": "Online store with paypal payments intergration and guest user shopping"
+        "description": "Job board platform made for employers and employees. In profile section, based on user role, they can managed their applications or applicants."
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@
         },
         "links": {
             "live": "https://trips2019.netlify.app/",
-            "github": "https:://www.github.com/madic00/trips/"
+            "github": "https://www.github.com/madic00/trips/"
         },
         "tags": [
             "HTML",
@@ -53,6 +53,61 @@
             "JS",
             "interactivity with JS"
         ],
-        "description": "Modulized guide for online courses with step by step intructions"
+        "description": "Travel agency website. Primary focus on this project was working with JavaScript and animating with jQuery, working with json files."
+    },
+    {
+        "id": 4,
+        "name": "Crud Boilerplate",
+        "img": {
+            "path": "boilerplateUsers.jpg",
+            "alt": "Project crud boilerplate"
+        },
+        "links": {
+            "github": "https://www.github.com/madic00/crudBoilerplate/"
+        },
+        "tags": [
+            "PHP",
+            "OOP",
+            "MySQL"
+        ],
+        "description": "Crud boilerplate for admin panel built in oop php."
+    },
+    {
+        "id": 5,
+        "name": "NorthwindApp",
+        "img": {
+            "path": "northwindapp.jpg",
+            "alt": "Project northwind crud in c# "
+        },
+        "links": {
+            "github": "https://www.github.com/madic00/northwindapp/"
+        },
+        "tags": [
+            "C#",
+            "OOP",
+            "Entity Framework",
+            "SQL server"
+        ],
+        "description": "Windows form app for crud operations on Northwind database using entity-framework and oop principles"
+    },
+    {
+        "id": 6,
+        "name": "Foodfun",
+        "img": {
+            "path": "foodfun.jpg",
+            "alt": "Project foodfun, restaurant"
+        },
+        "links": {
+            "live": "https://foodfun2020.netlify.app/",
+            "github": "https://www.github.com/madic00/foodfun/"
+        },
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "Lazy Loading",
+            "Shopping cart"
+        ],
+        "description": "Restaurant website to showcase menu, worked with filter and sort, lazy loading products, book a table or order online (only front-end)"
     }
 ]
